@@ -1,3 +1,5 @@
+@extends('site.layouts.main')
+@section('content')
 
 <!-- =======  F.A.Q Section ======= -->
 <section id="faq">
@@ -75,3 +77,4 @@
   </div>
 
 </section><!-- End  F.A.Q Section -->
+@endsection

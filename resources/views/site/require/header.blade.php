@@ -9,13 +9,14 @@
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Accueil</a></li>
-          <li><a class="nav-link scrollto" href="#about">Apropos</a></li>
-          <li><a class="nav-link scrollto" href="#speakers">Evenement</a></li>
-          <li><a class="nav-link scrollto" href="#quoi_de_neuf">Quoi de neuf</a></li>
-          <li><a class="nav-link scrollto" href="#schedule">Achat-ticket</a></li>
-          <li><a class="nav-link scrollto" href="#venue">Sponsor</a></li>
-          <li><a class="nav-link scrollto" href="#contact">contact</a></li>
+          <li><a class="nav-link scrollto active" href="{{url('/')}}">Accueil</a></li>
+          <li><a class="nav-link scrollto" href="{{url('apropos')}}">Apropos</a></li>
+          <li><a class="nav-link scrollto" href="{{url('evenement')}}">Evenement</a></li>
+          <li><a class="nav-link scrollto" href="{{url('programme')}}">Programme</a> </li>
+          <li><a class="nav-link scrollto" href="{{url('quoi_de_neuf')}}">Quoi de neuf</a></li>
+          <li><a class="nav-link scrollto" href="{{url('ticket')}}">Achat-ticket</a></li>
+          <li><a class="nav-link scrollto" href="{{url('sponsor')}}">Sponsor</a></li>
+          <li><a class="nav-link scrollto" href="{{url('contact')}}">contact</a></li>
            
         </ul>
       </nav><!-- .navbar -->
