@@ -46,6 +46,9 @@ Route::get('contact', function () {
     return view('site.contact');
 });
 
+Route::get('blog', function () {
+    return view('site.blog');
+});
 
 Auth::routes();
 

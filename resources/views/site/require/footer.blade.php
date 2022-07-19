@@ -38,7 +38,7 @@
               New York, NY 535022<br>
               United States <br>
               <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              <strong>Email:</strong> info@jusy.com<br>
             </p>
 
             <div class="social-links">
