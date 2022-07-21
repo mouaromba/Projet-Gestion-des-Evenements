@@ -15,7 +15,6 @@
           <li><a class="nav-link scrollto" href="{{url('programme')}}">Programme</a> </li>
           <li><a class="nav-link scrollto" href="{{url('quoi_de_neuf')}}">Quoi de neuf</a></li>
           <li><a class="nav-link scrollto" href="{{url('ticket')}}">Achat-ticket</a></li>
-          <li><a class="nav-link scrollto" href="{{url('blog')}}">Blog</a></li>
           <li><a class="nav-link scrollto" href="{{url('sponsor')}}">Sponsor</a></li>
           <li><a class="nav-link scrollto" href="{{url('contact')}}">contact</a></li>
            
