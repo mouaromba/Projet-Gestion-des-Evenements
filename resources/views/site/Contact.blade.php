@@ -2,6 +2,29 @@
 @section('content')
 
 <main id="main">
+
+<div class="container m-3" data-aos="fade-up">
+    <div class="row">
+      <div class="col-lg-6 col-md-6">
+      <p>Les mœurs et l'état de tout le corps de la nation ont changé d'âge en âge […] 
+        Il est cent fois plus important d'observer 
+        ce changement de la nation entière, que de rapporter simplement des faits particuliers.
+        Parler de l'enfance privilégiée de Marcel Proust ne serait pas exact. Il vaut mieux dire
+         enfance protégée, s'il est vrai que Proust vit ses premières années s'écouler dans un
+          univers ouaté grâce à la tendresse vigilante d'une mère adorée. Jeanne Weil appartenait à 
+          une famille juive, d'origine lorraine et de solide fortune : délicate et cultivée, elle 
+          entoura de son immense affection ses deux fils, Marcel et Robert. On sait avec quelle impatience,
+           avec quelle angoisse Marcel attendait le soir le baiser maternel. Cette sensibilité presque
+            maladive le trahira toujours.
+        <p>
+      </div>
+      <div class="col-lg-6 col-md-6 ">
+        <div class="speaker" data-aos="fade-up" class="d-block w-100" style="height: 100vh;" data-aos-delay="100">
+        <img src="assets/img/speakers/3.jpg" alt="Brenden Legros">
+        </div>
+    </div> 
+</div>
+
 <section id="contact" class="section-bg">
 
 <div class="container" data-aos="fade-up">

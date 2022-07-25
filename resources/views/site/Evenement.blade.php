@@ -4,9 +4,87 @@
 <main id="main">
 <!-- ======= Speakers Section ======= -->
 <section id="speakers">
-  <div class="container" data-aos="fade-up">
-    
 
+
+  <!-- ======= About Section ======= -->
+  <section id="carousel">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/img/speakers/1.jpg" class="d-block w-100" style="height: 100vh;"alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/speakers/2.jpg" class="d-block w-100" style="height: 100vh;" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>JALS vous souhaite le meilleur des événements.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/speakers/3.jpg"  class="d-block w-100" style="height: 100vh;" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+          
+<div class="container m-3" data-aos="fade-up">
+    <div class="row">
+      <div class="col-lg-6 col-md-6">
+      <p>Les mœurs et l'état de tout le corps de la nation ont changé d'âge en âge […] 
+        Il est cent fois plus important d'observer 
+        ce changement de la nation entière, que de rapporter simplement des faits particuliers.
+        Parler de l'enfance privilégiée de Marcel Proust ne serait pas exact. Il vaut mieux dire
+         enfance protégée, s'il est vrai que Proust vit ses premières années s'écouler dans un
+          univers ouaté grâce à la tendresse vigilante d'une mère adorée. Jeanne Weil appartenait à 
+          une famille juive, d'origine lorraine et de solide fortune : délicate et cultivée, elle 
+          entoura de son immense affection ses deux fils, Marcel et Robert. On sait avec quelle impatience,
+           avec quelle angoisse Marcel attendait le soir le baiser maternel. Cette sensibilité presque
+            maladive le trahira toujours.
+        <p>
+      </div>
+      <div class="col-lg-6 col-md-6 ">
+        <div class="speaker" data-aos="fade-up" data-aos-delay="200">
+            <p>Raconter les événements, c'est faire connaître l'opéra par le livret seulement ; 
+              mais si j'écrivais un roman je tâcherais de différencier les musiques successives des jours
+              Son père, le professeur Adrien Proust, médecin réputé,
+             était un homme froid mais bon, désarmé par ce fils aîné à la santé fragile, qui, 
+             à l'âge de neuf ans, a sa première crise d'asthme.Les années d'enfance se passent dans
+              quatre décors familiers aux lecteurs d'À la recherche du temps perdu. Le premier décor 
+              est la maison bourgeoise du boulevard Malesherbes ainsi que les jardins des Champs-Élysées,
+               où, chaque après-midi, l'on conduit Marcel. Le deuxième est Illiers, où la famille Proust va 
+               en vacances et qui deviendra Combray. Le troisième est la demeure de l'oncle Louis Weil à Auteuil,
+                chez qui l'on se rend par les jours de chaleur. Le quatrième est Trouville ou Dieppe,
+                 plus tard Cabourg, les belles plages d'où naîtra Balbec.</p>
+        </div>
+    </div> 
+</div>
+      
+
+  <div class="container" data-aos="fade-up">
     <div class="row">
       <div class="col-lg-4 col-md-6">
         <div class="speaker" data-aos="fade-up" data-aos-delay="100">
