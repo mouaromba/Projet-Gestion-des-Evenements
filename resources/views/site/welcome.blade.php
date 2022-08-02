@@ -7,8 +7,10 @@
 <section id="subscribe">
   <div class="container" data-aos="zoom-in">
     <div class="section-header">
-      <h2>Newsletter</h2>
-      <p>Rerum numquam illum recusandae quia mollitia consequatur.</p>
+      <h2>JALS </h2>
+      <h2><marquee behavior="alternate" scrollamount="2" scrolldelay="10">
+   !!! Vous souhaite la bienvenue sur notre site !!!
+</marquee></h2>
     </div>
 
     <form method="POST" action="#">

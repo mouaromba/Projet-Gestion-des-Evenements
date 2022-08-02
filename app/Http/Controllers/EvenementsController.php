@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Evenement;
+use Illuminate\Contracts\View\View;
 use Illuminate\Http\Request;
 
 class EvenementsController extends Controller
@@ -13,7 +15,7 @@ class EvenementsController extends Controller
      */
     public function index()
     {
-        //
+       return view('liste', ['evenements=>Evenement::all()']);
     }
 
     /**
@@ -23,7 +25,7 @@ class EvenementsController extends Controller
      */
     public function create()
     {
-        //
+        return view('Evenement');
     }
 
     /**
@@ -34,7 +36,15 @@ class EvenementsController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        Evenement::created( [
+         'id'=>$request->id,
+         'designation'=>$request->designation,
+         'categorie'=>$request->categorie,
+         'date'=>$request->date,
+         'photo'=>$request->photo->store('img', 'public')
+
+        ]);
+        return redirect()->route('evenement.index');
     }
 
     /**
@@ -45,7 +55,8 @@ class EvenementsController extends Controller
      */
     public function show($id)
     {
-        //
+        return View('show',[ 'finds'=>Evenement:: find($id),
+    ]);
     }
 
     /**
@@ -56,7 +67,8 @@ class EvenementsController extends Controller
      */
     public function edit($id)
     {
-        //
+        return View('show',[ 'finds'=>Evenement:: find($id),
+    ]);
     }
 
     /**
@@ -68,7 +80,9 @@ class EvenementsController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $even=Evenement::find($id);
+        $even->update($request->all());
+                return redirect()->route('evenement.index');
     }
 
     /**
@@ -79,6 +93,9 @@ class EvenementsController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $even=Evenement::find($id);
+        $even->delete();
+        return redirect()->route('evenement.index');
+
     }
 }

@@ -5,7 +5,6 @@
 <!-- ======= Speakers Section ======= -->
 <section id="speakers">
 
-
   <!-- ======= About Section ======= -->
   <section id="carousel">
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
@@ -20,21 +19,21 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="assets/img/speakers/1.jpg" class="d-block w-100" style="height: 100vh;"alt="...">
+      <img src="assets/img/speakers/1.jpg" class="d-block w-100" style="height: 80vh;"alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>First slide label</h5>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="assets/img/speakers/2.jpg" class="d-block w-100" style="height: 100vh;" alt="...">
+      <img src="assets/img/speakers/2.jpg" class="d-block w-100" style="height: 80vh;" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Second slide label</h5>
         <p>JALS vous souhaite le meilleur des événements.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="assets/img/speakers/3.jpg"  class="d-block w-100" style="height: 100vh;" alt="...">
+      <img src="assets/img/speakers/3.jpg"  class="d-block w-100" style="height: 80vh;" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Third slide label</h5>
         <p>Some representative placeholder content for the third slide.</p>
@@ -59,11 +58,7 @@
         ce changement de la nation entière, que de rapporter simplement des faits particuliers.
         Parler de l'enfance privilégiée de Marcel Proust ne serait pas exact. Il vaut mieux dire
          enfance protégée, s'il est vrai que Proust vit ses premières années s'écouler dans un
-          univers ouaté grâce à la tendresse vigilante d'une mère adorée. Jeanne Weil appartenait à 
-          une famille juive, d'origine lorraine et de solide fortune : délicate et cultivée, elle 
-          entoura de son immense affection ses deux fils, Marcel et Robert. On sait avec quelle impatience,
-           avec quelle angoisse Marcel attendait le soir le baiser maternel. Cette sensibilité presque
-            maladive le trahira toujours.
+          univers ouaté grâce à la tendresse vigilante d'une mère adorée.
         <p>
       </div>
       <div class="col-lg-6 col-md-6 ">
@@ -73,22 +68,16 @@
               Son père, le professeur Adrien Proust, médecin réputé,
              était un homme froid mais bon, désarmé par ce fils aîné à la santé fragile, qui, 
              à l'âge de neuf ans, a sa première crise d'asthme.Les années d'enfance se passent dans
-              quatre décors familiers aux lecteurs d'À la recherche du temps perdu. Le premier décor 
-              est la maison bourgeoise du boulevard Malesherbes ainsi que les jardins des Champs-Élysées,
-               où, chaque après-midi, l'on conduit Marcel. Le deuxième est Illiers, où la famille Proust va 
-               en vacances et qui deviendra Combray. Le troisième est la demeure de l'oncle Louis Weil à Auteuil,
-                chez qui l'on se rend par les jours de chaleur. Le quatrième est Trouville ou Dieppe,
-                 plus tard Cabourg, les belles plages d'où naîtra Balbec.</p>
+              quatre décors familiers aux lecteurs d'À la recherche du temps perdu. </p>
         </div>
     </div> 
 </div>
       
-
   <div class="container" data-aos="fade-up">
     <div class="row">
       <div class="col-lg-4 col-md-6">
-        <div class="speaker" data-aos="fade-up" data-aos-delay="100">
-          <img src="assets/img/speakers/1.jpg" alt="Speaker 1" class="img-fluid">
+        <div class="speaker" data-aos="fade-up" data-aos-delay="200">
+          <img src="assets/img/speakers/1.jpg" alt="Speaker 2" class="img-fluid"">
           <div class="details">
             <h3><a href="speaker-details.html">Brenden Legros</a></h3>
             <p>Quas alias incidunt</p>
@@ -200,7 +189,10 @@
         <div class="row justify-content-center">
           <div class="col-11 col-lg-8 position-relative">
             <h3>Downtown Conference Center, New York</h3>
-            <p>Iste nobis eum sapiente sunt enim dolores labore accusantium autem. Cumque beatae ipsam. Est quae sit qui voluptatem corporis velit. Qui maxime accusamus possimus. Consequatur sequi et ea suscipit enim nesciunt quia velit.</p>
+            <p>Iste nobis eum sapiente sunt enim dolores labore accusantium autem.
+              Cumque beatae ipsam. Est quae sit qui voluptatem corporis velit.
+              Qui maxime accusamus possimus. Consequatur sequi et ea suscipit enim 
+              nesciunt quia velit.</p>
           </div>
         </div>
       </div>

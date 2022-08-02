@@ -50,15 +50,12 @@ Route::get('contact', function () {
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::resource( 'commentaires', 'CommentairesController');
+//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+//Route::resource( 'commentaires', 'CommentairesController');
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
 // Route::get('liste_evenement', [EvenementController::class, 'index'])->name('liste');
 
@@ -67,7 +64,7 @@ Route::get('/', function () {
 // Route::post('insertion', [EvenementController::class, 'store'])->name('insertion');
 
 // Route::post('liste_evenement', [EvenementController::class, 'destroy'])->name('liste');
-Route::resource('evenement', EvenementController::class);
+//Route::resource('evenement', EvenementController::class);
 
 Route::get('supprimer_evenement/{id}', [EvenementController::class, 'destroy']);
 

@@ -14,13 +14,12 @@
           univers ouaté grâce à la tendresse vigilante d'une mère adorée. Jeanne Weil appartenait à 
           une famille juive, d'origine lorraine et de solide fortune : délicate et cultivée, elle 
           entoura de son immense affection ses deux fils, Marcel et Robert. On sait avec quelle impatience,
-           avec quelle angoisse Marcel attendait le soir le baiser maternel. Cette sensibilité presque
-            maladive le trahira toujours.
+           avec quelle angoisse Marcel attendait le soir le baiser maternel. 
         <p>
       </div>
-      <div class="col-lg-6 col-md-6 ">
-        <div class="speaker" data-aos="fade-up" class="d-block w-100" style="height: 100vh;" data-aos-delay="100">
-        <img src="assets/img/speakers/3.jpg" alt="Brenden Legros">
+      <div class="col-lg-6 col-md-3 ">
+        <div class="speaker" data-aos="fade-up" data-aos-delay="100">
+        <img src="assets/img/speakers/3.jpg" class="d-block w-100" style="height: 50vh; alt="BrendenLegros">
         </div>
     </div> 
 </div>
